@@ -17,7 +17,7 @@
         echo "</br>Maksymalna wysokość tej rośliny to ". $cm . "cm.";
 
         }
-
+        //funkcja obliczająca przyrost danej rośliny w ciągu konkretnej liczby dni
     public function wzrost($czas, $centymetrNaDzien){
             $this->czas = $czas; 
             $this->centymetrNaDzien = $centymetrNaDzien;
